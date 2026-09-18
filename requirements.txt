@@ -1,0 +1,21 @@
+# Pinned to the exact versions verified working together on Python 3.9-3.12.
+jax[cuda12_pip]==0.4.30; sys_platform == "linux"
+jax==0.4.30; sys_platform != "linux"
+jaxlib==0.4.30
+distrax==0.1.5
+tensorflow-probability==0.25.0
+optax==0.2.4
+flax==0.8.5
+numpy==1.26.4
+black==24.10.0
+pre-commit==4.1.0
+wandb==0.21.1
+orbax-checkpoint==0.5.0
+pygame==2.6.1
+gymnax==0.0.6
+chex==0.1.90
+matplotlib==3.9.4
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+craftax==1.5.0
+scire==0.1.1
